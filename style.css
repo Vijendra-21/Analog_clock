@@ -1,0 +1,94 @@
+#clockContainer {
+    position: relative;
+    margin: auto;
+    height: 40vw;
+    width: 40vw;
+    background: url('https://www.uhrmacherwerkzeuge.com/WebRoot/Store18/Shops/62662707/5A5F/6C78/EF05/D943/EC49/0A0C/6D0A/80EF/6039A.6155.png') no-repeat;
+    background-size: 100%;
+}
+
+#hour,
+#minute,
+#second,
+#sticker {
+    position: absolute;
+    background: black;
+    border-radius: 10px;
+    transform-origin: bottom;
+}
+
+#sticker {
+    width: 7.8%;
+    height: 7.8%;
+    top: 45.66%;
+    left: 46.1%;
+    border-radius: 80%;
+}
+
+#hour {
+    width: 1.8%;
+    height: 25%;
+    top: 25%;
+    left: 48.85%;
+    opacity: 0.8;
+}
+
+#minute {
+    width: 1.6%;
+    height: 30%;
+    top: 19%;
+    left: 48.9%;
+    opacity: 0.8;
+}
+
+#second {
+    width: 1%;
+    height: 37%;
+    top: 13%;
+    left: 49.25%;
+    opacity: 0.8;
+
+}
+
+#developer {
+    position: absolute;
+    transform-origin: bottom;
+    top: 60%;
+    left: 44%;
+    color: blue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+#clock {
+    position: absolute;
+    width: 50%;
+    height: 10%;
+    top: 30%;
+    left: 44%;
+}
+
+@media(max-width:800px) {
+    #developer {
+        left: 41%;
+        font-size: 10px;
+    }
+
+    #clock {
+        left: 40%;
+        font-size: 12px;
+    }
+}
+
+@media(max-width:450px) {
+    #developer {
+        top: 62%;
+        left: 39%;
+        font-size: 8px;
+    }
+
+    #clock {
+        left: 39%;
+        font-size: 8px;
+    }
+}
